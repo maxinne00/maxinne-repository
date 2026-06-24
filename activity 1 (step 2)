@@ -1,1 +1,14 @@
 
+<html>
+<head>
+    <title>ABOUT ME </title>
+</head>
+<body>
+    <p> hello my name is<i> Maxinne </i> </p>
+    <p> I am a student at <b>PWU JASMS QC</b> </p>
+    <p> I'm from <ins> Quezon City </ins> </p>
+    <p> I'm from <small> Grade 12 Aquinas </small> </p>
+    <p> I am currently <mark> 17 years old </mark> </p>
+    
+</body>
+</html>
