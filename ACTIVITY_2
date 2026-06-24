@@ -4,6 +4,8 @@
 </head>
 <body>
 <hr>
+
+ <h1> ABOUT ME</h1>
     <p>Hello! My name is <mark>Maxinne</mark> </p>
     <p>I am <b>17 years old</b> </p>
     <p>I am a <em>Senior High School Student</em> </p>
@@ -12,5 +14,28 @@
     <p>My favorite subjects in school are <ins>Mathematics and Science</ins> </p>
     <P>I am a <del>friendly and approachable</del> person. </p>
 <hr>
+ <h1> SKILLS AND HOBBIES</h1>
+
+<ul>
+<h3> HOBBIES</h3>   
+    <li>playing roblox</li>
+    <li>watching kdramas</li>
+    <li>scrolling tiktok</li>
+    <li>Drawing</li>
+    <li>Listening to Music</li>
+</ul>
+
+<ol> type="1">
+    <H4> TOP SKILLS</H4>
+    <li>Drawing</li>
+    <li>singing</li>
+    <li>dancing</li>
+    <li>making poetry</li>
+    <li>baking</li>
+    
+
+</ol>
 </body>
 </html>
+
+
