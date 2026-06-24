@@ -16,8 +16,7 @@ Hi! My name is Maxinne, you can call me Maxinne. I'm 17 years old.
 
 - Worked as the manager of Pizza Place in Roblox (2015-2018)
 - CEO of Apple (2018-2022)
-- Lincensed Doctor (2022-Present)
-
+- Lincensed Professional General Surgeon (2022-present)
 
 
 ## Skills
