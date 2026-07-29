@@ -7,8 +7,9 @@
   
     <body>
        <h1 class="centerMain" id="home">MY PERSONAL PORTFOLIO</h1>
+       <br>
         <p><b>Hi, my name is Maxinne A. Maralit!</b></p>
-        <p><i>Ad Astra Per Aspera</i></p>
+        <p><i>"Ad Astra Per Aspera"</i></p>
 
         
       <H3>NAVIGATIONS</H3>
@@ -26,7 +27,7 @@
            <br> I mostly enjoy and spend my leisure time with my family, also I love watching K-dramas but not as much as  I love listening to music
             <br> </p>
 
-            <img src="profile.jpg" alt="Profile Picture">
+            <img src="IMG_5013.jpeg" alt="Profile Picture">
             
 
             <h1 style="color: #ff47b2;" id="educationalBackground">EDUCATIONAL BACKGROUND</h1>
@@ -67,11 +68,11 @@
       
         <h2 id="projects">PROJECTS</h2>
         <p> Some of my projects:</p>
-        <img class="KomPan" src="IMG_7345.jpeg" alt="Project 1">
-        <P>This project was created by me for my Grade 11 subject, Komunikasyon at Pananaliksik. The main objective of this project was to present a relevant issue that our community faces. </P>
+        <img class="KomPan" src="IMG_5012.jpeg" alt="Project 1">
+        <P>This project was created by me for my Grade 11 subject, Earth and Life. The main objective of this project was to present a relevant issue that our community faces. </P>
         <br>
-        <img class="UCSP" src="IMG_7511.jpeg" alt="Project 2">
-        <p>This project was made for my grade 11 subject, UCSP. The purpose was to showcase the ancient and traditional objects of the Philippines from the past</P>
+        <img class="UCSP" src="emptech.png" alt="Project 2">
+        <p>This project was made for my grade 12 subject, Empowerment Technologies. The purpose was to showcase the  overusage of the ai and the students ai dependency. </P>
 
         <h1 style="color: #ff5baa;" id="contactInformation">Contact Information</h1>
         <p><strong style="color:#ff69a8;">Facebook:</strong> Maxinne Maralit</p>
@@ -90,8 +91,8 @@
         <input type="text" name="email" id="email">      
         <br>
         <br>
-        <label for="password">Password:</label> <br>
-        <input type="password" name="password" id="password">
+        <label for="Phome">Phone:</label> <br>
+        <input type="Text" name="phone" id="Phone">
         <br>
         <br>
     
@@ -110,8 +111,21 @@
 
     <input type="checkbox" id="tutoring" name="interest" value="Tutoring">
     <label for="tutoring">Tutoring</label><br>
-    
-        <H3>LEAVE A MESSAGE</H3>
+
+        <h3  style="color: #000000;">Schedule an appointment:</h3>
+        <label for="schedule"> Select a date:</label>
+`       <input type="datetime-local" id="schedule" name="schedule">
+
+        <h3 style="color: #000000;"> Insert your resume </h3>
+        <label for="resume">Insert here:</label>
+        <input type="file" id="resume" name="resume">
+
+        <h3 style="color:#000000"> Select your favorite color:</h3>
+        <label for="preferredColor"> Choose here:</label>
+        <input type="color" id="preferredColor" name="preferredColor">
+
+
+        <H3  style="color: #000000;">LEAVE A MESSAGE</H3>
         <label for="message"></label> 
         <textarea id="message" name="message" style="width:400px; height:150px;"></textarea>
         <br>
@@ -119,6 +133,8 @@
 
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
+
+    
 
     </form>
     </body>
