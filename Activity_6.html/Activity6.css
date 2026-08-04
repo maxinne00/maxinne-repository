@@ -1,0 +1,99 @@
+header {
+background-color: #ff7cb9;
+padding: 20px;
+}
+
+h1 {
+ font-size: 80px;
+ text-align:center;
+ color:#ffeaf4
+}
+
+
+body {
+   background-color: #ffd5e8;
+ font-size: 80px;
+ text-align:center;
+ color:#ff7cb9
+
+}
+
+
+.box {
+    background-color: #ffd1e6;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 4px solid #ff99c8;
+}
+
+.pink {
+    color:#fffeff;
+    background-color: #fd6bad;
+    height: 30px;
+    width: 65px;
+    border-radius: 15px;
+}
+
+.blue {
+    color:rgb(255, 255, 255);
+    background-color:rgb(131, 180, 255);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
+
+.purple {
+    color:rgb(255, 255, 255);
+    background-color:rgb(204, 127, 255);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+} 
+
+.yellow {
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 234, 47);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
+
+.green {
+    color:rgb(255, 255, 255);
+    background-color:rgb(60, 207, 68);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
+
+.red {
+    color:rgb(255, 255, 255);
+    background-color:rgb(207, 60, 60);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
+
+.brown {
+    color:rgb(255, 255, 255);
+    background-color:rgb(83, 59, 59);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
+.black {
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    height:30px;
+    width: 65px;
+    border-radius:15px;
+}
