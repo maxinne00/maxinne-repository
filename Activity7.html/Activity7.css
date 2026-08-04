@@ -1,0 +1,134 @@
+header {
+background-color: #162c6d;
+padding: 25px;
+}
+
+h1 {
+ font-size: 80px;
+ text-align:center;
+ color:#ffeaf4
+}
+
+
+body {
+   background-color: #8daaff;
+ font-size: 80px;
+ text-align:center;
+ color:#ffc6e1
+
+}
+
+
+.box {
+    background-color: #111434;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    
+}
+
+.colored {
+    color:#fffeff;
+    background-color: #141d65;
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+}
+
+.black-and-white {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+
+.galaxy {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+} 
+
+.sun {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+
+.mercury {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+
+.red {
+    color:rgb(255, 255, 255);
+    background-color:rgb(207, 60, 60);
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+
+.venus {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.earth {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.mars {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.jupiter {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.saturn {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.uranus {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
+.neptune {
+    color:rgb(255, 255, 255);
+    background-color:#141d65;
+    height:30px;
+    width: 90px;
+    border-radius:15px;
+}
