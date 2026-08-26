@@ -8,11 +8,14 @@ body {
 
 /* Main Header */
 .centerMain {
-    background-color: #ff8fb8;
+    background-color: #FF83B4;
+background: -moz-linear-gradient(top, #FF83B4 0%, #FFCDF0 50%, #FF83B4 100%);
+background: -webkit-linear-gradient(top, #FF83B4 0%, #FFCDF0 50%, #FF83B4 100%);
+background: linear-gradient(to bottom, #FF83B4 0%, #FFCDF0 50%, #FF83B4 100%);
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 60px;
-    padding: 60px 20px 20px;
+    padding: 60px 60px 90px;
     margin: 0;
 }
 
@@ -20,9 +23,9 @@ body {
 body > p:nth-of-type(1),
 body > p:nth-of-type(2) {
     text-align: center;
-    background-color: #f586af;
+    background-color: #ffa6c7;
     color: white;
-    margin: 2;
+    margin: 0;
     padding-bottom: 10px;
 }
 
@@ -45,13 +48,24 @@ body > p:nth-of-type(2) {
     color: #eb0680;
 }
 
-/* Headings */
-h2,
+/* Headings boxes */
 h3,
 #educationalBackground,
 #contactInformation {
+
+    max-width: 500px;
+    margin: 30px auto;
     text-align: center;
     color: #ff7db1;
+}
+
+h2
+{
+ 
+    text-align: center;
+    color: #ff7db1;
+    font-size: 30px;
+    margin-top: 30px;
 }
 
 /* Project Boxes*/
@@ -61,9 +75,8 @@ p{
     border-radius: 20px;
     text-align: center;
     margin: 20px;
-    font-size: 
+    font-size: 20px;
 }
-
 
 /* Paragraphs */
 p {
@@ -72,9 +85,9 @@ p {
 
 /* Images */
 img {
-    width: 250px;
+    width: 300px;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 15px;
     border: 4px solid #ff99c8;
 }
@@ -82,15 +95,12 @@ img {
 /* Table */
 table {
     width: 80%;
-    margin: auto;
-    border-collapse: collapse;
+    margin:30px auto;
+    border-collapse: 30px;
     text-align: center;
 }
 
-th {
-    background-color: #ff8fb8;
-    color: rgb(255, 255, 255);
-}
+
 
 td,
 th {
@@ -126,6 +136,13 @@ input[type="reset"] {
     padding: 10px 18px;
     border-radius: 8px;
     cursor: pointer;
+    .myButton {
+        
+color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(255, 131, 180) 0%, rgb(255, 200, 226) 50%, rgb(255, 131, 180) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #FF83B4; }
+.myButton:active {
+background: #FF83B4; }
 }
 
 input[type="submit"]:hover,
