@@ -1,5 +1,8 @@
 header {
-background-color: #162c6d;
+background-color: background: #12336A;
+background: -moz-linear-gradient(left, #12336A 0%, #2458A2 46%, #12336A 100%);
+background: -webkit-linear-gradient(left, #12336A 0%, #2458A2 46%, #12336A 100%);
+background: linear-gradient(to right, #12336A 0%, #2458A2 46%, #12336A 100%);
 padding: 25px;
 }
 
@@ -11,7 +14,10 @@ h1 {
 
 
 body {
-   background-color: #8daaff;
+background-color: #548DE2;
+background: -moz-linear-gradient(top, #548DE2 0%, #2458A2 46%, #548DE2 100%);
+background: -webkit-linear-gradient(top, #548DE2 0%, #2458A2 46%, #548DE2 100%);
+background: linear-gradient(to bottom, #548DE2 0%, #2458A2 46%, #548DE2 100%);#295ce9;
  font-size: 80px;
  text-align:center;
  color:#ffc6e1
@@ -75,7 +81,7 @@ img {
     border-radius:15px;
 }
 
-.red {
+.red{
     color:rgb(255, 255, 255);
     background-color:rgb(207, 60, 60);
     height:30px;

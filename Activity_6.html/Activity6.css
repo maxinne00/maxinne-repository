@@ -1,5 +1,8 @@
 header {
-background-color: #ff7cb9;
+background-color: #FF99C2;
+background: -moz-linear-gradient(top, #FF99C2 0%, #FF64AE 46%, #FF99C2 100%);
+background: -webkit-linear-gradient(top, #FF99C2 0%, #FF64AE 46%, #FF99C2 100%);
+background: linear-gradient(to bottom, #FF99C2 0%, #FF64AE 46%, #FF99C2 100%);
 padding: 20px;
 }
 
@@ -11,7 +14,7 @@ h1 {
 
 
 body {
-   background-color: #ffd5e8;
+   background-color:#ffc5df;
  font-size: 80px;
  text-align:center;
  color:#ff7cb9
