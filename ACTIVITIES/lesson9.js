@@ -3,6 +3,6 @@ function submitForm() {
     var age = document.getElementById("age").value;
     var favoriteSubject = document.getElementById("favoriteSubject").value;
   
-    document.getElementById("output").innerHTML = "Hello! My name is " + name + ". I am " + age + " years old. My favorite subject is " + favoriteSubject + ".";
+    document.getElementById("output").innerHTML = "Hello! My name is <b>" + name + "</b>. I am <b>" + age + "</b> years old. My favorite subject is <b>" + favoriteSubject + "</b>";
     console.log(name, age, favoriteSubject);
   }
