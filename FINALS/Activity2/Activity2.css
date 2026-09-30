@@ -44,6 +44,7 @@ header p {
 }
 
 
+
 form {
   background-color: #fff5f4;
   padding: 35px 30px;
@@ -56,6 +57,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
 
 
 label {
@@ -114,13 +116,3 @@ button:active, .myButton:active {
   transition: all 0.3s ease;
 }
 
-
-#result:not(:empty) {
-  background-color: rgba(236, 31, 31, 0.07);
-  border: 1px solid rgba(153, 28, 28, 0.3);
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 20px rgba(145, 110, 110, 0.2);
-  line-height: 1.6;
-  color: #5a0606;
-}
