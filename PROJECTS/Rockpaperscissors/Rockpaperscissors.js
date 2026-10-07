@@ -36,17 +36,40 @@ function startGame(playerChoice) {
     else if (result === "YOU LOSE!") {
         computerScore++;
         document.getElementById("computerScore").textContent = computerScore;    
+        
 
 }
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textContent = `RESULT: ${result}`;
 
-}
 
-}
-    if (counter == 5) {
-    window.alert("GAME OVER! PLAYER WINS!");
+    switch(result) {
+    case "YOU WIN!":
+        if (playerScore === 5) {
+            window.alert("CONGRATULATIONS! YOU WON THE GAME!");
+            resetGame();
+        }
+    case "YOU LOSE!":
+        if (computerScore === 5) {
+            window.alert("SORRY! YOU LOST THE GAME!");
+            resetGame();
+        }
     
+     }
+    }
+            
+    function resetGame() {
+    playerDisplay.textContent = "PLAYER: ";
+    computerDisplay.textContent = "COMPUTER: ";
+    resultDisplay.textContent = "RESULT: ";
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("playerScore").textContent = playerScore;
+    document.getElementById("computerScore").textContent = computerScore;
+    
+ }
 }
-
+        
+     
+   

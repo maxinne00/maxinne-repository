@@ -8,22 +8,25 @@
 </head>
 
 <body>
+    <header>
         <h1>Rock Paper Scissors</h1>
-
-    <div id="choices">
-        <button onclick="startGame('rock')">👊</button>
-        <button onclick="startGame('paper')">✋</button>
-        <button onclick="startGame('scissors')">✌️</button>
+    </header>
+   <p>Choose your move:</p>
+    <div id="choices" class="choices">
+        <button onclick="startGame('Rock')">👊</button>
+        <button onclick="startGame('Paper')">✋</button>
+        <button onclick="startGame('Scissors')">✌️</button>
     </div>
     <br>
     
+
     <div id="playerDisplay"> PLAYER:</div>
     <div id="computerDisplay"> COMPUTER:</div>
     <div id="resultDisplay"> RESULT:</div>
 
     <div id="scoreDisplay">
-        <p>Player Score: <div id="playerScore">0</div></p>
-        <p>Computer Score: <div id="computerScore">0</div></p>
+        <p>Player Score: <span id="playerScore">0</span></p>
+        <p>Computer Score: <span id="computerScore">0</span></p>
     </div>
 </body>
 <script src="Rockpaperscissors.js"></script>
